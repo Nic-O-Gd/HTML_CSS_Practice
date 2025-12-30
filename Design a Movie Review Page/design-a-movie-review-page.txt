@@ -1,0 +1,36 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+ <main>
+     <h1>Movie Review: Echoes of the Nightmare</h1>
+     <img src="https://static.wikia.nocookie.net/bloodborne/images/f/f3/Bloodborne_Protagonist.png" alt="a hunter from the back in yharnam city"></img>
+     <p>From the moment the protagonist, the tormented hunter, steps into the cursed city, audiences are thrust into a nightmarish maze of twisted architecture, eldritch creatures, and mind-bending mysteries. The film’s visuals are nothing short of spectacular—every shadow and bloodstain vividly realized through groundbreaking practical effects and haunting cinematography that echoes the game's dark, Gothic aesthetic.
+
+The narrative weaves a complex tale of obsession, cosmic dread, and the pursuit of forbidden knowledge. The protagonist's descent into madness is portrayed with raw intensity, amplified by a haunting score that oscillates between eerie silence and discordant melodies. The supporting cast, featuring enigmatic figures like the mysterious Gehrman and the sinister Byrgenwerth scholars, add layers of intrigue and menace.
+</p>
+<p><strong>Movie Rating:</strong>
+<span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span>
+(9.2/10)</p>
+<h2>Cast Members</h2>
+<ul>
+    <li><strong>Maya Chen</strong> as Lady Maria of the Astral Court</li>
+    <li><strong>Vera Langley</strong> as The Byrgenwerth Scholar</li>
+    <li><strong>Damian Voss</strong> as Micolash</li>
+    <li><strong>Lila Hart</strong> as The Blood Moon Seer</li>
+</ul>
+ </main>
+
+<body>
+
+</body>
+
+</html>
+
+** end of index.html **
+

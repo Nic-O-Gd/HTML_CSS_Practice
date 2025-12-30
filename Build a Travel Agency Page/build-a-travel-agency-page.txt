@@ -1,0 +1,52 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Travel Agency Page</title>
+    <meta name="description" content="helps people and groups choose, plan, and book Lordran travel-related services">
+</head>
+<body>
+    <h1>Unlock the Mysteries of Lordran !</h1>
+    <p>Discover the haunting beauty of Lordran with our exclusive travel packages! Step into a mysterious world filled with ancient ruins, majestic castles, and epic adventures. Experience the thrill of exploring a fallen kingdom steeped in legends and dark secrets. Join us and embark on an unforgettable journey to Lordran — where every step reveals a new story. Book your adventure today!</p>
+
+    <h2>Packages</h2>
+    <p>Whether you're seeking legendary exploration, thrilling battles, spiritual retreats, or immersive fantasy experiences, we've crafted the perfect journeys to bring the mystical world of Lordran to life. Embark on unforgettable adventures, unlock hidden secrets, and create memories that will last forever. Your epic quest begins here, choose your perfect package today!</p>
+
+    <ul>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+    </ul>
+    
+    <h2>Top Itineraries</h2>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Dark_Souls_Blighttown_Upper_Level.jpeg" alt="Blighttown upper level" />
+      </a>
+      <figcaption>Sunset at Blighttown</figcaption>
+    </figure>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/62/Anor_Londo.png" alt="Anor Londo" />
+      </a>
+      <figcaption>Do we still have to present this place ?</figcaption>
+    </figure>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://darksouls.wiki.fextralife.com/file/Dark-Souls/painted_world_of_ariamis.jpg" alt="Painted World of Ariamis" />
+      </a>
+      <figcaption>Fancy for a snowy trail inside the painted world of Ariamis?</figcaption>
+    </figure>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVXD4NH66EtNPWrLYhPr8Mbr4twGKx1cj0g&s" alt="Relaxation retreat" />
+      </a>
+      <figcaption>Or a relaxed retreat to Izalith Resorts & Spa</figcaption>
+    </figure>
+</body>
+</html>
+
+
+** end of index.html **
+

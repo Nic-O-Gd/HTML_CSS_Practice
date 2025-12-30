@@ -1,0 +1,40 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+  <h1>Multimedia Player</h1>
+  <section>
+    <h2>Now Playing: Deep House Instrumental</h2>
+    <audio controls aria-label="Some House music playing">
+  <source src="https://cdn.pixabay.com/download/audio/2025/06/02/audio_42284bdf0e.mp3" type="audio/mp3">
+</audio>
+
+  </section>
+  <section>
+    <h2>Hungry ?</h2>
+    <video controls width="600" aria-label="golden brown fried chicken">
+  <source src="https://shorturl.at/zhShh" type="video/mp4">
+  <track src="fried-chicken.vtt" kind="captions" srclang="en" label="English" default=""> 
+</video>
+
+  </section>
+  <section>
+    <h2>Transcript</h2>
+    <p>[Opening shot: A close-up of raw chicken pieces on a cutting board.]
+
+"Introducing the ultimate crispy fried chicken — tender, juicy, and packed with flavor."</p>
+  </section>
+
+</body>
+
+</html>
+
+** end of index.html **
+
