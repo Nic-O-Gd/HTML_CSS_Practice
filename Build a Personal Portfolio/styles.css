@@ -1,0 +1,167 @@
+:root {
+  --main-white: rgb(236, 220, 220);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: Tomorrow, sans-serif;
+  font-size: 1.8rem;
+  /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  background: linear-gradient(180deg,rgba(101, 57, 110, 1) 31%, rgba(201, 81, 81, 1) 81%, rgba(252, 176, 69, 1) 100%);
+  } 
+
+
+.nav {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  background-color: rgb(43, 43, 126);
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  list-style: none;
+}
+
+.nav-list a {
+  display: block;
+  color: var(--main-white);
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg,rgba(43, 43, 126, 1) 30%, rgba(101, 57, 110, 1) 70%);
+  color: var(--main-white);
+}
+
+h1 {
+  font-size: 5rem;
+  color: var(--main-white);
+}
+
+h1 + p {
+  font-size: 2rem;
+  color: var(--main-white);
+}
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+.projects-header {
+  max-width: 640px;
+  margin: 0 auto 1rem auto;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 3rem;
+  color: var(--main-white);
+}
+
+h3 {
+  font-size: 5rem;
+  color: var(--main-white);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project:hover {
+  
+  background: rgb(43, 43, 126);
+}
+
+.code {
+  color: orangered;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.social-icons a {
+  font-size: 4.5rem;
+  color: orangered;
+  margin: 1em;
+}
