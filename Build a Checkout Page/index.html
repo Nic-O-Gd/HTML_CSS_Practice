@@ -3,37 +3,53 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout Page</title>
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap"
+        rel="stylesheet">
 </head>
-<h1>Checkout</h1>
-<section>
-    <h2>Your Cart</h2>
-    <img src="https://darksouls.wiki.fextralife.com/file/Dark-Souls/2019.png" alt="Ash-colored stone encasing a skull.
-Reduces curse build-up and breaks curse."></img>
-<p>Purging Stone</p>
-<p>souls 6,000</p>
-</section>
-<section>
-    <h2>Payment Information</h2>
-    <form>
-        <div>
-            <label for="card-name">Cardholder Name
-                <span aria-hidden="true">*</span>
-            </label>
-        <input type="text" id="card-name" name="card-name" placeholder="Enter your Name" required=""></input>
-        </div>
-        <div>
-            <label for="card-number">Card Number
-                <span aria-hidden="true">*</span>
-            </label>
-        <input type="text" id="card-number" name="card-number" placeholder="Enter your Card Number" aria-describedby="card-number-help" required=""></input>
-        <p id="card-number-help">Please enter your 16-digit card number without spaces or dashes.</p>
-        </div>
-    </form>
-</section>
 
 <body>
-
+    <div class="container-checkout">
+        <h1>Checkout</h1>
+        <div class="flex-container">
+            <!-- Cart Section -->
+            <div class="section container-cart">
+                <h2>Your Cart</h2>
+                <div class="cart-item">
+                    <img src="https://darksouls.wiki.fextralife.com/file/Dark-Souls/2019.png"
+                        alt="Ash-colored stone encasing a skull. Reduces curse build-up and breaks curse." />
+                    <div class="cart-details">
+                        <p><strong>Purging Stone</strong></p>
+                        <p>souls 6,000</p>
+                        <p>Qty: 1</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Payment Section -->
+            <div class="section container-payment">
+                <h2>Payment Information</h2>
+                <form>
+                    <label for="card-name">
+                        Cardholder Name <span aria-hidden="true">*</span>
+                        <input type="text" id="card-name" name="card-name" placeholder="Enter your Name" required />
+                    </label>
+                    <label for="card-number">
+                        Card Number <span aria-hidden="true">*</span>
+                        <input type="text" id="card-number" name="card-number" placeholder="Enter your Card Number"
+                            aria-describedby="card-number-help" required />
+                        <p id="card-number-help">Please enter your 16-digit card number without spaces or dashes.</p>
+                    </label>
+                    <button type="button" id="addToCartBtn1" onclick="addToCart('Watermelon', 2.50)">Add to
+                        cart</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
